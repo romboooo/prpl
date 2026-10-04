@@ -1,0 +1,7 @@
+menuentry "Shutdown" --class shutdown {
+	halt
+}
+
+menuentry "Reboot" --class restart {
+	reboot
+}

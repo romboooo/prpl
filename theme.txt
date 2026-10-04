@@ -1,0 +1,73 @@
+desktop-image: "background.png"
+desktop-color: "#0b0911"
+
+message-font: "FiraCode Regular 16 Regular 16"
+message-color: "#b7a7d9"
+message-bg-color: "#0b0911"
+terminal-font: "FiraCode Regular 16 Regular 16"
+
++ boot_menu {
+	left = 7%
+	top = 18%
+	width = 46%
+	height = 44%
+	item_font = "FiraCode Regular 22 Regular 22"
+	item_color = "#c8badf"
+	selected_item_font = "FiraCode Bold 22 Bold 22"
+	selected_item_color = "#ffffff"
+	item_height = 42
+	item_padding = 14
+	item_spacing = 4
+	menu_pixmap_style = "menu_*.png"
+	selected_item_pixmap_style = "selected_*.png"
+	scrollbar = false
+}
+
++ progress_bar {
+	id = "__timeout__"
+	left = 7%
+	top = 66%
+	width = 28%
+	height = 8
+	font = "FiraCode Regular 14 Regular 14"
+	text_color = "#d8caff"
+	fg_color = "#a855f7"
+	bg_color = "#332641"
+	border_color = "#332641"
+	text = ""
+}
+
++ label {
+	id = "__timeout__"
+	left = 7%+2
+	top = 70%+2
+	width = 28%
+	height = 28
+	text = "auto boot: %d"
+	align = "left"
+	font = "FiraCode Regular 16 Regular 16"
+	color = "#09060d"
+}
+
++ label {
+	id = "__timeout__"
+	left = 7%
+	top = 70%
+	width = 28%
+	height = 28
+	text = "auto boot: %d"
+	align = "left"
+	font = "FiraCode Regular 16 Regular 16"
+	color = "#ffffff"
+}
+
++ label {
+	left = 72%
+	top = 94%
+	width = 25%
+	height = 20
+	text = "made by rmb"
+	align = "right"
+	font = "FiraCode Tiny 12 Regular 12"
+	color = "#b7a7d9"
+}
