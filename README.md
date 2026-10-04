@@ -21,4 +21,5 @@ To add optional power entries:
 sudo sh -c 'cat 40_custom.extra >> /etc/grub.d/40_custom'
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
-# prpl
+
+![screenshot](screen.png)

@@ -3,6 +3,7 @@ set -eu
 
 theme_dir="/boot/grub/themes/grub-prpl"
 
+rm -rf "$theme_dir"
 mkdir -p "$theme_dir"
 cp -r ./*.pf2 ./*.png ./theme.txt "$theme_dir"/
 
